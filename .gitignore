@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/WebJob with .NET Core/WebJobDemo/.vs/WebJobDemo
+/WebJob with .NET Core/WebJobDemo/WebJobDemo/bin/Debug/netcoreapp3.0
+/WebJob with .NET Core/WebJobDemo/WebJobDemo/obj
+/Azure WebJob using.docx
+/~WRL3901.tmp
+/~$ure WebJob using.docx
