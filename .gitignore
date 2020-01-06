@@ -9,3 +9,13 @@
 /Azure WebJob using.docx
 /~WRL3901.tmp
 /~$ure WebJob using.docx
+/Docker Sample with .NET Core 3.1/SimpleWebAPI/.vs/SimpleWebAPI/v16
+bin
+obj
+packages
+.vs
+
+*.DotSettings.user
+*.user
+/Docker Sample with .NET Core 3.1/SimpleWebAPI/SimpleWebAPI/appsettings.Development.json
+*.json
