@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sampleapi-deployment
+spec:
+  selector:
+    matchLabels:
+      app: sampleapi-pod
+  template:
+    metadata:
+      labels:
+        app: sampleapi-pod
+    spec:
+      containers:
+      - name: sampleapi-container
+        image: sampleapi:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
