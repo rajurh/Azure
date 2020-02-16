@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: sampleapi-container
-        image: sampleapi:latest
+        image: rajurh/webapisample:84
         resources:
           limits:
             memory: "128Mi"
